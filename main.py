@@ -8,6 +8,7 @@ for name in list_:
 
 with open("./Input/Letters/starting_letter.txt", mode="r") as let:
     letters = let.readlines()
+letters[-1] = "Claudio"
 
 n = 0
 for name in list_names:
